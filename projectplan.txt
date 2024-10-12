@@ -45,7 +45,7 @@
 ----out what level 10 cell the coordinate is in and will query OpenStreetMap
 ----for information within that cell if it's not already stored.
 
-----Whenever the project API receives the OpenStreetMap information at level 10
+----Whenever the project API receives the OpenStreetMap information at level 10,
 ----it will then create the geometry and split it into level 15 and save them to
 ----the database as JSON.
 
@@ -55,6 +55,18 @@
 ----The API will then respond with information needed to draw the map.
 
 ----The UI will then draw the map in the pane.
+
+[[[ SCHEDULE ]]]
+
+----10/20/24 Get the API started and successfully querying data from OpenStreetMap into a JSON list.
+
+----11/10/24 Get the API spliting that info into smaller cells.
+
+----11/20/24 Get the API to successfully save that info into internal database, and able to pull from.
+
+----11/30/24 Get the web UI accepting and sending input to the API.
+
+----12/10/24 Get the UI drawing the map to the pane when recieving data.
 
 [[[ DOWNSIZE PLAN ]]]
 
