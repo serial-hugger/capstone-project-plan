@@ -2,7 +2,7 @@
 
 ---[SUMMARY]
 
-----An web front-end that when you enter a coordinate it draws a map
+----A web front-end that when you enter a coordinate it draws a map
 ----of the roads, buildings, bodies of water and forestry of that area
 ----and displays generated spawn points that could be used for a game.
 
